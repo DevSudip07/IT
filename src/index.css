@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #818CF8;
+}
+
+::selection {
+    color: rgb(0, 132, 255);
+}
+
+.banner {
+    background-image: url(./assets/BANNER-BG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cardHover:hover .des {
+    top: 0px;
+    transition: .4s all;
+}
+
+.description {
+    background-image: url(./assets/DES-BG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
